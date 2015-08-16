@@ -1,0 +1,8 @@
+Choose date/time
+choose location (initialize map at current location or the middle of manhattan)
+	- Check that location is valid (within Manhattan for now)
+choose radius
+perform search
+	- for result in search, check if it's in Manhattan 
+	- also check that it'll be open (make sure permanently closed places are filtered)
+Results should be marked on the map
